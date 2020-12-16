@@ -38,15 +38,21 @@ Todos sus archivos y carpetas se presentan como un árbol en el explorador de ar
 
 ##  Interfaz TytusDB
 
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+graph LR  
+A[Square Rect] -- Link text --> B((Circle))  
+A --> C(Round Rect)  
+B --> D{Rhombus}  
+C --> D  
 
 ##  Requisitos de mantenimiento del sistema
 
 Puede eliminar el archivo actual haciendo clic en el botón ** Eliminar ** en el explorador de archivos. El archivo se moverá a la carpeta ** Papelera ** y se eliminará automáticamente después de 7 días de inactividad.
 
-##  Instrucciones para solucionar problemas
-Puede exportar el archivo actual haciendo clic en ** Exportar a disco ** en el menú. Puede optar por exportar el archivo como Markdown simple, como HTML usando una plantilla de Handlebars o como PDF.
+##  Instrucciones para solucionar problemas  
+|                |ASCII                          |HTML                         |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
+
