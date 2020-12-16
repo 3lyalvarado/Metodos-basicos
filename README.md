@@ -1,5 +1,4 @@
 # MANUAL TÉCNICO
-
 UNIVERSIDAD DE SAN CARLOS DE GUATEMALA
 FACULTAD DE INGENIERIA
 ESCUELA DE CIENCIAS Y SISTEMA
@@ -28,6 +27,7 @@ CURSO: ESTRUCTURA DE DATOS
 ##  Competencias TytusDB
 
 Texto ** falta! **
+SABER
 
 ##  Aplicaciones típicas y capacidad de la tecnología
 
