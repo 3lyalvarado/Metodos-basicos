@@ -24,3 +24,26 @@ CURSO: ESTRUCTURA DE DATOS
 - [Instrucciones para solucionar problemas](#)
 
 
+
+##  Competencias TytusDB
+
+Texto ** falta! **
+
+##  Aplicaciones típicas y capacidad de la tecnología
+
+Texto
+
+##  Descripción general
+
+Todos sus archivos y carpetas se presentan como un árbol en el explorador de archivos. Puede cambiar de uno a otro haciendo clic en un archivo en el árbol.
+
+##  Interfaz TytusDB
+
+Puede cambiar el nombre del archivo actual haciendo clic en el nombre del archivo en la barra de navegación o haciendo clic en el botón ** Cambiar nombre ** en el explorador de archivos.
+
+##  Requisitos de mantenimiento del sistema
+
+Puede eliminar el archivo actual haciendo clic en el botón ** Eliminar ** en el explorador de archivos. El archivo se moverá a la carpeta ** Papelera ** y se eliminará automáticamente después de 7 días de inactividad.
+
+##  Instrucciones para solucionar problemas
+Puede exportar el archivo actual haciendo clic en ** Exportar a disco ** en el menú. Puede optar por exportar el archivo como Markdown simple, como HTML usando una plantilla de Handlebars o como PDF.
