@@ -13,15 +13,6 @@ CURSO: ESTRUCTURA DE DATOS
 - 201801719 ELIEZER ABRAHAM ZAPETA ALVARADO
 
 ## Índice
-- [Competencias de TytusDB](#competencias-tytusdb) 
-- [Aplicaciones típicas y capacidad de la tecnología](#sdsd)
-- [Descripción general](#df)
-- [Introducción](#condiciones-del-proyecto)
-- [Objetivos TytusDB](#tytusdb)
-- [Interfaz  TytusDB](#administrador-de-almacenamiento)
-- [Requisitos de mantenimiento del sistema](#sdsdsd)
-- [Instrucciones para solucionar problemas](#)
-
 
 
 ##  Competencias TytusDB
