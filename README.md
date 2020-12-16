@@ -1,6 +1,6 @@
 # MANUAL TÉCNICO
 
-Universidad de San Carlos de Guatemala  
+UNIVERSIDAD DE SAN CARLOS DE GUATEMALA  
 Facultad de Ingeniería  
 Cursos: 772 Estructuras de Datos 
 Diciembre 2020  
