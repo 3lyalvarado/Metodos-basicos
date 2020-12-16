@@ -3,7 +3,7 @@
 Universidad de San Carlos de Guatemala  
 Facultad de Ingeniería  
 Cursos: 772 Estructuras de Datos 
-Diciembre 2020
+Diciembre 2020  
 
 ## INTEGRANTES
 
@@ -17,7 +17,7 @@ Diciembre 2020
 
 ##  Competencias TytusDB
 
-Texto **falta!**
+Texto **falta!**  
 Saber
 
 ##  Aplicaciones típicas y capacidad de la tecnología
