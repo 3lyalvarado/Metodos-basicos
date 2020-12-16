@@ -1,10 +1,10 @@
 # MANUAL TÉCNICO
 
-UNIVERSIDAD DE SAN CARLOS DE GUATEMALA
-FACULTAD DE INGENIERÍA
-ESCUELA DE CIENCIAS Y SISTEMAS
-VACACIONES DE DICIEMBRE DE 2020
-CURSO: 772 ESTRUCTURA DE DATOS
+UNIVERSIDAD DE SAN CARLOS DE GUATEMALA  
+FACULTAD DE INGENIERÍA  
+ESCUELA DE CIENCIAS Y SISTEMAS  
+VACACIONES DE DICIEMBRE DE 2020  
+CURSO: 772 ESTRUCTURA DE DATOS  
 
 ### INTEGRANTES
 
@@ -38,7 +38,11 @@ Todos sus archivos y carpetas se presentan como un árbol en el explorador de ar
 
 ##  Interfaz TytusDB
 
-Puede cambiar el nombre del archivo actual haciendo clic en el nombre del archivo en la barra de navegación o haciendo clic en el botón ** Cambiar nombre ** en el explorador de archivos.
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
 
 ##  Requisitos de mantenimiento del sistema
 
