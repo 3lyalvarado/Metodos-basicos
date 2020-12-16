@@ -24,27 +24,3 @@ CURSO: ESTRUCTURA DE DATOS
 - [Instrucciones para solucionar problemas](#)
 
 
-
-
-## Competencias TytusDB
-
-Texto **falta!**
-
-## Aplicaciones típicas y capacidad de la tecnología
-
-Texto
-
-## Descripción general
-
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
-
-## Interfaz  TytusDB
-
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
-
-## Requisitos de mantenimiento del sistema
-
-You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
-
-## Instrucciones para solucionar problemas
-You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
