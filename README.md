@@ -17,7 +17,7 @@ Diciembre 2020
 
 ##  Competencias TytusDB
 
-Texto ** falta! **
+Texto **falta!**
 Saber
 
 ##  Aplicaciones típicas y capacidad de la tecnología
