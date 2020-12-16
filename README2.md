@@ -14,7 +14,7 @@ CURSO: 772 ESTRUCTURA DE DATOS
 - 201801719 ELIEZER ABRAHAM ZAPETA ALVARADO
 
 ## Índice
-- [Competencias de TytusDB](#competencias-tytusdb) 
+- [Objetivos y Alcances](#competencias-tytusdb) 
 - [Aplicaciones típicas y capacidad de la tecnología](#sdsd)
 - [Descripción general](#df)
 - [Introducción](#condiciones-del-proyecto)
