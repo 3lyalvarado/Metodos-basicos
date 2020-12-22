@@ -47,7 +47,7 @@ TytusBD tiene cinco modos de almacenamiento, este paquete brinda la modalidad de
 - Se brindara una interfaz iteractiva para la visualizacion de los datos y el comportamiento de las estructuras
 
 ## Licencias y convenio
-El proyecto está diseñado bajo una licencia Open Source, específicamente MIT. Por convenio, los estudiantes aparecerán como contribuidores junto con el copyright. Además, cualquier biblioteca autorizada también se debe colocar la licencia y el copyright en el archivo LICENSE.md en su carpeta respectiva. 
+El proyecto está diseñado bajo una licencia Open Source, específicamente **MIT**. Por convenio, los estudiantes aparecerán como contribuidores junto con el copyright. Además, cualquier biblioteca autorizada también se debe colocar la licencia y el copyright en el archivo LICENSE.md en su carpeta respectiva. 
 
 ## Funcionalidades
 #### Funciones CRUD de las bases de datos
@@ -55,11 +55,11 @@ ___
 ### [Manager.py](https://github.com/tytusdb/tytus/blob/main/storage/team11/Manager.py)
 Nombre de la funcion | Parametros | Descripcion | Clase
 ---------------------|------------|-------------|-------
-createDatabase | db_nombre | Verifica si el nombre de la base de datos existe, de no ser asi crea un nodo en el arbol AVL para base de datos.| ```Manager```
-showDatabases |  | Devuelve una lista de los nombres de las bases de datos, si ocurrió un error o no hay bases de datos devuelve una lista vacía [].| ```Manager```
-alterDatabase | databaseOld, databaseNew  | Renombra una base de datos, realiza la busqueda en el arbol para encontrar el nodo correspondiente.| ```Manager```
-alterDatabase | databaseOld, databaseNew  | Renombra una base de datos, realiza la busqueda en el arbol para encontrar el nodo correspondiente.| ```Manager```
-dropDatabase | database | Elimina por completo el nodo correspondiente a la base de datos indicada. | ```Manager```
+```createDatabase``` | ```( db_nombre )``` | Verifica si el nombre de la base de datos existe, de no ser asi crea un nodo en el arbol AVL para base de datos.| ```Manager```
+```showDatabases``` | ```( )``` | Devuelve una lista de los nombres de las bases de datos, si ocurrió un error o no hay bases de datos devuelve una lista vacía [].| ```Manager```
+```alterDatabase``` | ```( databaseOld, databaseNew )```  | Renombra una base de datos, realiza la busqueda en el arbol para encontrar el nodo correspondiente.| ```Manager```
+```alterDatabase``` | ```( databaseOld, databaseNew )```  | Renombra una base de datos, realiza la busqueda en el arbol para encontrar el nodo correspondiente.| ```Manager```
+```dropDatabase``` | ```( database )``` | Elimina por completo el nodo correspondiente a la base de datos indicada. | ```Manager```
 
 
 
@@ -140,14 +140,14 @@ define_pk | colmns | Define como llaves primarias las columnas especificadas de 
 
 ___
 # Glosario
-- Paquete: Un paquete es un contenedor de clases que permite agrupar las distintas partes de un programa y que por lo general tiene una funcionalidad y elementos comunes, definiendo la ubicación de dichas clases en un directorio de estructura jerárquica. 
-- DBA(administrador de bases de datos): Es aquel sistema que administra las tecnologías de la información y la comunicación, siendo responsable de los aspectos técnicos, tecnológicos, científicos, inteligencia de negocios y legales de bases de datos, y de la calidad de datos.
-- Servidor:  Es una aplicación en ejecución capaz de atender las peticiones de un cliente y devolverle una respuesta en concordancia. Los servidores se pueden ejecutar en cualquier tipo de computadora, incluso en computadoras dedicadas a las cuales se les conoce individualmente como el servidor.
-- Arbol: Un árbol es un tipo abstracto de datos ampliamente usado que imita la estructura jerárquica de un árbol, con un valor en la raíz y subárboles con un nodo padre, representado como un conjunto de nodos enlazados.
-- Arbol AVL: Los árboles AVL están siempre equilibrados de tal modo que para todos los nodos, la altura de la rama izquierda no difiere en más de una unidad de la altura de la rama derecha o viceversa.
-- Tupla: Una tupla es una secuencia de valores agrupados. Una tupla sirve para agrupar, como si fueran un único valor, varios valores que, por su naturaleza, deben ir juntos.
-- Fichero: Un archivo es un fichero (dato) almacenado en algún recurso de memoria, generalmente en Disco Duro, pero dependiendo del uso (en ciertos casos) son almacenados en RAM. 
-- CRUD: En informática, CRUD es el acrónimo de "Crear, Leer, Actualizar y Borrar" (del original en inglés: Create, Read, Update and Delete), que se usa para referirse a las funciones básicas en bases de datos o la capa de persistencia en un software.
+- **Paquete:** Un paquete es un contenedor de clases que permite agrupar las distintas partes de un programa y que por lo general tiene una funcionalidad y elementos comunes, definiendo la ubicación de dichas clases en un directorio de estructura jerárquica. 
+- **DBA:** (administrador de bases de datos): Es aquel sistema que administra las tecnologías de la información y la comunicación, siendo responsable de los aspectos técnicos, tecnológicos, científicos, inteligencia de negocios y legales de bases de datos, y de la calidad de datos.
+- **Servidor:** Es una aplicación en ejecución capaz de atender las peticiones de un cliente y devolverle una respuesta en concordancia. Los servidores se pueden ejecutar en cualquier tipo de computadora, incluso en computadoras dedicadas a las cuales se les conoce individualmente como el servidor.
+- **Arbol:** Un árbol es un tipo abstracto de datos ampliamente usado que imita la estructura jerárquica de un árbol, con un valor en la raíz y subárboles con un nodo padre, representado como un conjunto de nodos enlazados.
+- **Arbol AVL:** Los árboles AVL están siempre equilibrados de tal modo que para todos los nodos, la altura de la rama izquierda no difiere en más de una unidad de la altura de la rama derecha o viceversa.
+- **Tupla:** Una tupla es una secuencia de valores agrupados. Una tupla sirve para agrupar, como si fueran un único valor, varios valores que, por su naturaleza, deben ir juntos.
+- **Fichero:** Un archivo es un fichero (dato) almacenado en algún recurso de memoria, generalmente en Disco Duro, pero dependiendo del uso (en ciertos casos) son almacenados en RAM. 
+- **CRUD:** En informática, CRUD es el acrónimo de "Crear, Leer, Actualizar y Borrar" (del original en inglés: Create, Read, Update and Delete), que se usa para referirse a las funciones básicas en bases de datos o la capa de persistencia en un software.
 # E-grafías
 ___
 - tkinter — Python interface to Tcl/Tk. Library.https://docs.python.org/3/library/tkinter.html
