@@ -65,7 +65,6 @@ Nombre de la funcion | Parametros | Descripcion | Clase
 
 ___
 ### [ArbolAVLDB.py](https://github.com/tytusdb/tytus/blob/main/storage/team11/ArbolAVLDB.py)
-
 ___
 ### [ArbolAVLManager.py](https://github.com/tytusdb/tytus/blob/main/storage/team11/ArbolAVLManager.py)
 ___
@@ -102,16 +101,16 @@ ___
 ### [DataBase.py](https://github.com/tytusdb/tytus/blob/main/storage/team11/DataBase.py)
 Nombre de la funcion | Parametros | Descripcion | Clase
 ---------------------|------------|-------------|-------
-create_table | table, number_columns | Crea una instancia de tabla y lo agrega en un nodo al arbol de tablas| ```Database```
-show_tables |  | Devuelve una lista de los nombres de las tablas de una base de datos, si ocurrió un error o no hay bases de datos devuelve una lista vacía | ```Database```
-extract_table | table_name | Extrae y retorna una lista con elementos que corresponden a cada registro de la tabla| ```Database```
-extract_range_table | table_name, column_number, lower, upper | Extrae y retorna una lista con los elementos que corresponden a un rango de registros de la tabla| ```Database```
-alter_add_pk | table_name, columns | Asocia a la tabla una llave primaria simple o compuesta mediante la lista de número de columnas| ```Database```
-alter_drop_pk | table_name | Elimina la llave primaria actual en la información de la tabla, manteniendo el índice actual de la estructura del árbol|```Database```
-alter_table | table_old, table_new | Renombra el nombre de la tabla de una base de datos especificada|```Database```
-alter_add_column |  table_name, default | Agrega una columna al final de cada registro de la tabla y base de datos especificada |```Database```
-alter_drop_column |  table_name, column_number | Elimina una n-ésima columna de cada registro de la tabla excepto si son llaves primarias |```Database```
-drop_table |  table_name | Elimina por completo una tabla de una base de datos especificada |```Database``` 
+```create_table``` | ```( table, number_columns)``` | Crea una instancia de tabla y lo agrega en un nodo al arbol de tablas| ```Database```
+```show_tables``` | ( ) | Devuelve una lista de los nombres de las tablas de una base de datos, si ocurrió un error o no hay bases de datos devuelve una lista vacía | ```Database```
+```extract_table``` | ```( table_name )``` | Extrae y retorna una lista con elementos que corresponden a cada registro de la tabla| ```Database```
+```extract_range_table``` | ```( table_name, column_number, lower, upper )``` | Extrae y retorna una lista con los elementos que corresponden a un rango de registros de la tabla| ```Database```
+```alter_add_pk``` | ```( table_name, columns )``` | Asocia a la tabla una llave primaria simple o compuesta mediante la lista de número de columnas| ```Database```
+```alter_drop_pk``` | ```( table_name )``` | Elimina la llave primaria actual en la información de la tabla, manteniendo el índice actual de la estructura del árbol|```Database```
+```alter_table``` | ```( table_old, table_new )``` | Renombra el nombre de la tabla de una base de datos especificada|```Database```
+```alter_add_column``` |  ```( table_name, default )``` | Agrega una columna al final de cada registro de la tabla y base de datos especificada |```Database```
+```alter_drop_column``` |  ```( table_name, column_number )``` | Elimina una n-ésima columna de cada registro de la tabla excepto si son llaves primarias |```Database```
+```drop_table``` |  ```( table_name )``` | Elimina por completo una tabla de una base de datos especificada |```Database``` 
 
 
 ___
