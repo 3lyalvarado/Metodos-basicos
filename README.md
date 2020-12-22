@@ -75,27 +75,25 @@ ___
 
 Nombre de la funcion | Parametros | Descripcion | Clase
 ---------------------|------------|-------------|-------
-add | element | Agrega un nodo al arbol con los atributos correspondientes, posteriormente verifica si el arbol esta balanceado, si no, lo balanceara.| ```ArbolAVLDB```
-get_height | root | Returna la altura de un nodo en especifico| ```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
-rotacion_left | Nodo | Ejecuta una rotacion de sus nodos hacia la izquierda |```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
-rotacion_right | Nodo | Ejecuta una rotacion de sus nodos hacia la derecha |```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
-get_balance | root | Retorna la resta entre 2 alturas de nodos especificos | ```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
-delete_nodo | root, value | Busca un nodo especifico que desea eliminar, posteriormente verifica si todo el arbol esta balanceado.| ```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
-find_nodo | root | Retorna el nodo que se encuentra mas a la izquierda| ```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
-search_value | root | Busca una nodo en el arbol que corresponda al valor que se busca y si la encuentra retorna el nodo. | ```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
-
-
-update_table_pk | table_name, columns | Busca el nodo de la tabla solicitada, asocia a la tabla una llave primaria simple o compuesta mediante la lista de número de columnas.| ```ArbolAVLDB```
-update_alter_add_column | root, table_name | Agrega una columna al final de cada registro de la tabla y base de datos especificada | ```ArbolAVLDB```
+```add``` | ```( element )``` | Agrega un nodo al arbol con los atributos correspondientes, posteriormente verifica si el arbol esta balanceado, si no, lo balanceara.| ```ArbolAVLDB```
+```get_height``` | ```( root )``` | Returna la altura de un nodo en especifico| ```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
+```rotacion_left``` | ```( Nodo )``` | Ejecuta una rotacion de sus nodos hacia la izquierda |```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
+```rotacion_right``` | ```( Nodo )``` | Ejecuta una rotacion de sus nodos hacia la derecha |```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
+```get_balance``` | ```( root )``` | Retorna la resta entre 2 alturas de nodos especificos | ```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
+```delete_nodo``` | ```(root, value)``` | Busca un nodo especifico que desea eliminar, posteriormente verifica si todo el arbol esta balanceado.| ```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
+```find_nodo``` | ```( root )``` | Retorna el nodo que se encuentra mas a la izquierda| ```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
+```search_value``` | ```( root )``` | Busca una nodo en el arbol que corresponda al valor que se busca y si la encuentra retorna el nodo. | ```ArbolAVLDB```, ```ArbolAVLManager```, ```ArbolAVLR```
+```update_table_pk``` | ```( table_name, columns )``` | Busca el nodo de la tabla solicitada, asocia a la tabla una llave primaria simple o compuesta mediante la lista de número de columnas.| ```ArbolAVLDB```
+```update_alter_add_column``` | ```( root, table_name )``` | Agrega una columna al final de cada registro de la tabla y base de datos especificada | ```ArbolAVLDB```
 
 ___
 ### [Binary.py](https://github.com/tytusdb/tytus/blob/main/storage/team11/Binary.py)
 Nombre de la funcion | Parametros | Descripcion | Clase
 ---------------------|------------|-------------|-------
-commit | file_name | Crea y escribe los datos en archivos binarios .bin| ```Binary```
-rollback | file_name | Lee los datos que estan guardados en un archivo binario .bin| ```Binary```
-verify_string | string | Se encarga de verficar que los nombres cumplan con la nomenclatura de las base de datos| ```Binary```
-verify_columns | nums_columns, columns | Se encarga de verficar que los numeros de columna correspondan a una tabla especifica| ```Binary```
+```commit``` | ```( file_name )``` | Crea y escribe los datos en archivos binarios .bin| ```Binary```
+```rollback``` | ```( file_name )``` | Lee los datos que estan guardados en un archivo binario .bin| ```Binary```
+```verify_string``` | ```( string )``` | Se encarga de verficar que los nombres cumplan con la nomenclatura de las base de datos| ```Binary```
+```verify_columns``` | ```( nums_columns, columns )``` | Se encarga de verficar que los numeros de columna correspondan a una tabla especifica| ```Binary```
 ___
 #### Funciones CRUD de las tablas
 ### [DataBase.py](https://github.com/tytusdb/tytus/blob/main/storage/team11/DataBase.py)
@@ -121,18 +119,18 @@ ___
 Nombre de la funcion | Parametros | Descripcion | Clase
 ---------------------|------------|-------------|-------
 get_tables |  | Obtiene los nombres de las tablas de una base de datos con recorrido en orden y los retorna como una lista.| ```ArbolAVLR```
-__inorder | nodo | Ordena los nodos del arbol AVL y los guarda en una lista.| ```ArbolAVLDB```
-extra_table |  | Obtiene la lista de tablas ordenadas y la retorna. ```ArbolAVLR```
-__extract_table | nodo | Obtiene los datos de las tablas y los retorna, exceptuando la llave primaria utilizada al insertar en el arbol | ```ArbolAVLR```
-__extract_table | nodo | Obtiene los datos de las tablas y los retorna, exceptuando la llave primaria utilizada al insertar en el arbol. |```ArbolAVLR```
-truncate |  |Hace una llamada a una funcion recursiva y retorna el valor de dicha funcion |```ArbolAVLR```
-__truncate| nodo |Elimina los registros de una tabla especifica, sin eliminar a la tabla misma |```ArbolAVLR```
-update_node| value, register |Actualiza los datos de un nodo especifico con los valores enviados. este metodo funciona cuando la llave primaria es oculta. | ```ArbolAVLR```
-extract_range_table|nodo, column_numbre,lower, upper |Retorna los datos de los registros que esten en el rango y en la columna especificado.  | ```ArbolAVLR```
-extractRow | pkList | Extrae y devuelve un registro especificado por su llave primaria | ```ArbolAVLR```
-insert | data | Inserta un registro en la estructura de datos asociada a la tabla y la base de datos. | ```Table```
-delete | register | Elimina un registro de una tabla y base de datos especificados por la llave primaria | ```Table```
-define_pk | colmns | Define como llaves primarias las columnas especificadas de la tabla| ```Table```
+```__inorder``` | ```( nodo )``` | Ordena los nodos del arbol AVL y los guarda en una lista.| ```ArbolAVLDB```
+```extra_table``` | ```( )``` | Obtiene la lista de tablas ordenadas y la retorna. ```ArbolAVLR```
+```__extract_table``` | ```( nodo )``` | Obtiene los datos de las tablas y los retorna, exceptuando la llave primaria utilizada al insertar en el arbol | ```ArbolAVLR```
+```__extract_table``` | ```( nodo )``` | Obtiene los datos de las tablas y los retorna, exceptuando la llave primaria utilizada al insertar en el arbol. |```ArbolAVLR```
+```truncate``` |  |Hace una llamada a una funcion recursiva y retorna el valor de dicha funcion |```ArbolAVLR```
+```__truncate```| ```( nodo )``` |Elimina los registros de una tabla especifica, sin eliminar a la tabla misma |```ArbolAVLR```
+```update_node```| ```( value, register )``` |Actualiza los datos de un nodo especifico con los valores enviados. este metodo funciona cuando la llave primaria es oculta. | ```ArbolAVLR```
+```extract_range_table```|```( nodo, column_numbre,lower, upper )``` |Retorna los datos de los registros que esten en el rango y en la columna especificado.  | ```ArbolAVLR```
+```extractRow``` | ```( pkList )``` | Extrae y devuelve un registro especificado por su llave primaria | ```ArbolAVLR```
+```insert``` | ```( data )``` | Inserta un registro en la estructura de datos asociada a la tabla y la base de datos. | ```Table```
+```delete``` | ```( register )``` | Elimina un registro de una tabla y base de datos especificados por la llave primaria | ```Table```
+```define_pk``` | ```( colmns )``` | Define como llaves primarias las columnas especificadas de la tabla| ```Table```
 
 
 
